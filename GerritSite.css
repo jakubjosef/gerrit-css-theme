@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 /*!
- * Gerrit CSS theme 1.0.1 (https://github.com/Ecwid/gerrit-css-theme)
+ * Gerrit CSS theme 1.0.0 (https://github.com/Ecwid/gerrit-css-theme)
  * Licensed under the Apache 2.0 license
  * Copyright (c) 2017 ECWID S.à r.l. All rights reserved.
  * https://www.ecwid.com
- * Updated by Jakub Josef
+ * Modified by Jakub Josef
  */
 
 /* Common styles */
@@ -615,7 +615,7 @@ box-shadow: 0 1px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoTable > tbody > tr .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-commitColumn {
 	float: left;
 	width: calc(100% - 712px);
-    min-width: 400px;
+    min-width: 350px;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoTable > tbody > tr .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn {
 	float: right;
@@ -1121,6 +1121,7 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	}
 	.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-relatedColumn {
 		width: calc(100% - 342px) !important;
+        min-width: 350px;
 		margin-top: 0 ;
 	}
 	.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-relatedColumn .gwt-TabPanel.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel {
